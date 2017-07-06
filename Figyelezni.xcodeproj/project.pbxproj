@@ -14,6 +14,9 @@
 		F85CE9811F0D9DC200E0754C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85CE9801F0D9DC200E0754C /* Assets.xcassets */; };
 		F85CE9841F0D9DC200E0754C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85CE9821F0D9DC200E0754C /* LaunchScreen.storyboard */; };
 		F85CE98F1F0D9DC200E0754C /* FigyelezniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85CE98E1F0D9DC200E0754C /* FigyelezniTests.swift */; };
+		F85CE99C1F0D9E9D00E0754C /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85CE9991F0D9E9D00E0754C /* RecordedAudio.swift */; };
+		F85CE99D1F0D9E9D00E0754C /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85CE99A1F0D9E9D00E0754C /* RecordSoundsViewController.swift */; };
+		F85CE99E1F0D9E9D00E0754C /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85CE99B1F0D9E9D00E0754C /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		F85CE98A1F0D9DC200E0754C /* FigyelezniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FigyelezniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85CE98E1F0D9DC200E0754C /* FigyelezniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigyelezniTests.swift; sourceTree = "<group>"; };
 		F85CE9901F0D9DC300E0754C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85CE9991F0D9E9D00E0754C /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		F85CE99A1F0D9E9D00E0754C /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		F85CE99B1F0D9E9D00E0754C /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 			children = (
 				F85CE9771F0D9DC200E0754C /* AppDelegate.swift */,
 				F85CE9791F0D9DC200E0754C /* FirstViewController.swift */,
+				F85CE9991F0D9E9D00E0754C /* RecordedAudio.swift */,
+				F85CE99A1F0D9E9D00E0754C /* RecordSoundsViewController.swift */,
+				F85CE99B1F0D9E9D00E0754C /* PlaySoundsViewController.swift */,
 				F85CE97B1F0D9DC200E0754C /* SecondViewController.swift */,
 				F85CE97D1F0D9DC200E0754C /* Main.storyboard */,
 				F85CE9801F0D9DC200E0754C /* Assets.xcassets */,
@@ -204,8 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85CE99C1F0D9E9D00E0754C /* RecordedAudio.swift in Sources */,
 				F85CE97C1F0D9DC200E0754C /* SecondViewController.swift in Sources */,
 				F85CE9781F0D9DC200E0754C /* AppDelegate.swift in Sources */,
+				F85CE99D1F0D9E9D00E0754C /* RecordSoundsViewController.swift in Sources */,
+				F85CE99E1F0D9E9D00E0754C /* PlaySoundsViewController.swift in Sources */,
 				F85CE97A1F0D9DC200E0754C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
